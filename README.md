@@ -3,4 +3,5 @@
 ## defaults 
 
 username: clickhouse
+
 password: clickhouse
