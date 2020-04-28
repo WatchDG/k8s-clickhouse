@@ -33,9 +33,6 @@ spec:
             - name: init
               mountPath: /docker-entrypoint-initdb.d
             - name: config
-              mountPath: /etc/clickhouse-server/config.xml
-              subPath: config.xml
-            - name: config
               mountPath: /etc/clickhouse-server/users.xml
               subPath: users.xml
             - name: users
