@@ -25,7 +25,7 @@ spec:
             secretName: users
       containers:
         - name: clickhouse
-          image: yandex/clickhouse-server:20
+          image: clickhouse/clickhouse-server:21.12-alpine
           ports:
             - containerPort: 8123
             - containerPort: 9000

@@ -1,0 +1,1 @@
+kubectl port-forward -n clickhouse svc/clickhouse 8123:8123
