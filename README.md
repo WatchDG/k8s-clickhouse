@@ -5,6 +5,11 @@
 kubectl apply -f .
 ```
 
+## Delete
+```shell
+kubectl delete -f . 
+```
+
 ## Defaults
 ```text
 database: default
